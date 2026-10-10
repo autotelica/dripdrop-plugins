@@ -1,0 +1,27 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "dripdrop",
+  "version": "0.3.14",
+  "description": "Edit collaborative DripDrop documents with your agent, with live selection context and tracked changes.",
+  "author": { "name": "DripDrop", "url": "https://dripdrop.autotelica.ai" },
+  "homepage": "https://dripdrop.autotelica.ai",
+  "repository": "https://github.com/autotelica/dripdrop-plugins",
+  "license": "MIT",
+  "keywords": ["documents", "editing", "collaboration"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "DripDrop",
+        "shortDescription": "Collaborative document editing with your agent",
+        "longDescription": "Open a live DripDrop document beside your conversation. Select a passage and ask your agent to edit it, review tracked changes, collaborate, and export your document.",
+        "developerName": "DripDrop",
+        "category": "Productivity",
+        "capabilities": ["Read", "Write"],
+        "websiteURL": "https://dripdrop.autotelica.ai",
+        "logo": "./assets/logo.png",
+        "composerIcon": "./assets/logo.png",
+        "defaultPrompt": ["Open my DripDrop document for editing.", "Rewrite the selected passage in my DripDrop document."]
+      }
+    }
+  }
+}

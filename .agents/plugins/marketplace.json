@@ -1,0 +1,12 @@
+{
+  "name": "dripdrop",
+  "interface": { "displayName": "DripDrop" },
+  "plugins": [
+    {
+      "name": "dripdrop",
+      "source": { "source": "local", "path": "./integrations/dripdrop-agent" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Productivity"
+    }
+  ]
+}
