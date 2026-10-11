@@ -34,3 +34,7 @@ Restart the desktop client and start a fresh conversation if it retains older pl
 ## Distribution
 
 Plugin reference: `dripdrop@dripdrop`. Only the portable manifest, MCP connection, editing skill, logo, this guide, and marketplace catalog are distributed here. No credentials are included. This Git marketplace is separate from a reviewed listing in ChatGPT's universal plugin directory.
+
+## License
+
+The plugin files are licensed under the [Apache License 2.0](LICENSE). Copyright 2026 autotelica OÜ. Use of the hosted DripDrop service is governed by its own terms.
