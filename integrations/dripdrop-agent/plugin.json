@@ -6,7 +6,7 @@
   "author": { "name": "DripDrop", "url": "https://dripdrop.autotelica.ai" },
   "homepage": "https://dripdrop.autotelica.ai",
   "repository": "https://github.com/autotelica/dripdrop-plugins",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "keywords": ["documents", "editing", "collaboration"],
   "extensions": {
     "com.openai": {
